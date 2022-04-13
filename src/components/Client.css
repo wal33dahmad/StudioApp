@@ -1,0 +1,67 @@
+.client {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .client .left-box-cl {
+    width: 300px;
+  }
+  .client .left-box p {
+    margin: 10px 0;
+    color: #757575;
+  }
+  .client .right-box img {
+    width: 200px;
+    height: 90px;
+  }
+  @media only screen and (max-width: 600px) {
+    /* Client Section */
+    .client {
+      margin: 0;
+      height: fit-content;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .client .left-box-cl, .client .right-box img  {
+      display: block;
+      text-align: center;
+    }
+    .client .left-box-cl p {
+      margin: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+  /* Client Section */
+  .client {
+    padding: 30px 30px 30px 100px;
+    height: fit-content;
+  }
+  .client .right-box {
+    text-align: right;
+  }
+  }
+  
+  @media only screen and (min-width: 992px) {
+  /* Client Section */
+  .client {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .client .left-box-cl {
+    width: 300px;
+  }
+  .client .left-box p {
+    margin: 10px 0;
+    color: #757575;
+  }
+  .client .right-box img {
+    width: 200px;
+    height: 90px;
+  }
+  
+  }
