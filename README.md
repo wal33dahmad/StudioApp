@@ -1,13 +1,9 @@
-# Text Utilities
+# Studio App
 
-This app is for general use, currently it offers 2 utilities;
+This is a Figma converted to React App
 
-## 1- Convert Text to UpperCase
-You can write or insert any text you want to convert to uppercase letters and then click the respective button available below the text area.
-## 2- Convert Text to LowerCase
-You can write or insert any text you want to convert to lowercase letters and then click the respective button available below the text area.
-## 3- Delete or Reset
-Instead of removing all the text manaually you can do that by clicking the delete button.
+### Live App:
+https://studioapp.netlify.app/
 
-Live App:
-https://textutiliz.netlify.app/
+### Figma Link: 
+https://www.figma.com/file/pRIQvy1PdfUjxjT9CsOqFJ/Studio-Design-Landin-Page-(Community)?node-id=0%3A1
